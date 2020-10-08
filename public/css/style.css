@@ -1,0 +1,174 @@
+:root {
+  --color-Xtradark: #a61103; /*var(--color-Xtradark)*/
+  --color-dark: #f25922; /*var(--color-dark)*/
+  --color-middle: #f2b366; /*var(--color-middle)*/
+  --color-light: ;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 120%;
+  background-image: url("../images/fond.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px 79px;
+  width: 100%;
+}
+
+.error {
+  color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  font-size: 80%;
+}
+.centre {
+  text-align: center;
+  color: var(--color-middle);
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+li {
+  width: 25%;
+  height: 40px;
+  padding: 20px;
+  background-color: var(--color-middle);
+  text-align: center;
+  list-style-type: none;
+}
+li:hover {
+  background-color: var(--color-dark);
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+h2 {
+  color: var(--color-dark);
+  text-align: center;
+  padding-top: 20px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.logo {
+  border: 4px var(--color-dark) solid;
+  height: 40px;
+  background-color: white;
+}
+.logo:hover {
+  border: 4px var(--color-middle) solid;
+}
+
+form {
+  text-align: center;
+  color: var(--color-middle);
+}
+.apropos {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+iframe {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+.bienvenue {
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+  color: var(--color-dark);
+  transform: translateY(100px);
+  font-weight: bold;
+  font-style: italic;
+  position: absolute;
+}
+
+input {
+  border: 1px var(--color-Xtradark) solid;
+}
+.prenom {
+  border: 1px var(--color-dark) solid;
+}
+.nom {
+  border: 1px var(--color-dark) solid;
+}
+
+.btn {
+  background-color: var(--color-dark);
+  color: white;
+  border: 1px var(--color-middle) solid;
+}
+button {
+  width: 80px;
+  height: 20px;
+  background-color: var(--color-dark);
+  color: white;
+  border: 1px var(--color-middle) solid;
+}
+/*PAGE ACCUEIL*/
+
+.formulaire-accueil {
+  background-color: rgb(255, 255, 255, 0.7);
+  width: 600px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.btnFormulaireAccueil {
+  width: unset;
+}
+.BienRecu {
+  color: white;
+  padding-left: 40px;
+}
+form {
+  text-align: left;
+  padding: 50px;
+  color: var(--color-Xtradark);
+}
+
+.connexion > p > a {
+  color: white;
+  font-weight: normal;
+}
+.connexion > button {
+  width: auto;
+}
+.connexion > button > a {
+  line-height: unset;
+  font-weight: lighter;
+}
+.connexion > button:hover {
+  color: var(--color-Xtradark);
+}
+.nouvelleConnexionForm,
+.recaptulatifForm,
+.connexionForm {
+  background-color: rgb(255, 255, 255, 0.7);
+  width: 320px;
+  margin-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.recaptulatifForm > section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
