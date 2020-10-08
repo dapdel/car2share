@@ -166,9 +166,22 @@ form {
   padding-bottom: 10px;
   margin-bottom: 20px;
 }
+/*RECAPITULATIF*/
 .recaptulatifForm > section {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: white;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+td,
+th {
+  border: 1px solid black;
 }

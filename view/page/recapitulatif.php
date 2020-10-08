@@ -13,7 +13,7 @@
         </div>
     </section>
 </form>
+<table>
+    <?= $table; ?> 
+</table>
 
-
-
-<?= $tableau; ?>
